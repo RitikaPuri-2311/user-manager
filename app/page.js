@@ -1,17 +1,35 @@
-import Userform from "@/components/Userform";
+// app/page.js — HOME PAGE ONLY!
 
+import Link from "next/link";
 
-
-export default function UsersPage() {
+export default function Home() {
   return (
-    <div className="p-10">
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="text-center max-w-md mx-auto p-8">
 
-      <h1 className="text-3xl font-bold mb-6">
-        Users Page 👥
-      </h1>
+        <div className="text-7xl mb-6">👥</div>
 
-      <Userform />
+        <h1 className="text-4xl font-bold text-gray-800 mb-3">
+          User Manager
+        </h1>
 
+        <p className="text-gray-500 mb-8 text-lg">
+          A simple app to manage users.
+          Add, edit and delete users easily!
+        </p>
+
+        <Link
+          href="/users"
+          className="bg-blue-500 text-white px-8 py-3 rounded-xl hover:bg-blue-600 font-semibold transition-colors text-lg"
+        >
+          Manage Users →
+        </Link>
+
+        <p className="text-gray-400 text-sm mt-8">
+          Built with Next.js + React + Tailwind CSS
+        </p>
+
+      </div>
     </div>
   );
 }
