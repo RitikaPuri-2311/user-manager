@@ -4,5 +4,5 @@ const createJestConfig = nextJest({ dir: "./" });
 
 module.exports = createJestConfig({
   testEnvironment: "jsdom",
-  setupFilesAfterFramework: ["@testing-library/jest-dom"],
+  setupFilesAfterEnv: ["./jest.setup.js"],
 });
