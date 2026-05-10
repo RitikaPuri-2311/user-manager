@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-// Why Link? → Faster than <a> tag — no full page reload!
+
 
 export default function Navbar() {
   return (

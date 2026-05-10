@@ -1,4 +1,3 @@
-// app/page.js — HOME PAGE ONLY!
 
 import Link from "next/link";
 
@@ -7,15 +6,14 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50 flex items-center justify-center">
       <div className="text-center max-w-md mx-auto p-8">
 
-        <div className="text-7xl mb-6">👥</div>
+        <div className="text-7xl mb-6"></div>
 
         <h1 className="text-4xl font-bold text-gray-800 mb-3">
           User Manager
         </h1>
 
         <p className="text-gray-500 mb-8 text-lg">
-          A simple app to manage users.
-          Add, edit and delete users easily!
+          Manage users easily!
         </p>
 
         <Link
