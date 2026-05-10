@@ -38,7 +38,7 @@ export default function UserForm({ onAdd }) {
   return (
     <div className="bg-white rounded-xl shadow-sm p-6 border mb-8">
       <h2 className="text-lg font-semibold text-gray-700 mb-4">
-        ➕ Add New User
+         Add New User
       </h2>
 
       {error && (
